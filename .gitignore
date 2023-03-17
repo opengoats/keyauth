@@ -4,12 +4,18 @@
 *.dll
 *.so
 *.dylib
-
 # Test binary, built with `go test -c`
 *.test
-
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+*.idea
+*vendor
 
-# Dependency directories (remove the comment below to include it)
-# vendor/
+cover.out
+coverage.txt
+
+etc/keyauth.toml
+etc/keyauth.env
+etc/unit_test.env
+etc/ssl
+keyauth
